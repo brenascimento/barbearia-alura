@@ -1,0 +1,51 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+div {
+    display: inline-block;
+}
+
+
+
+.maquina{
+    width: 630px;
+    height: 50%;
+    background: #868f96;
+    margin: 50px auto;
+    padding: 25px 0 0 0;
+}
+
+.campo{
+    margin: 0 0 0 38px;
+    padding: 20px 1px 1px 0; 
+    width: 90%;
+    direction: rtl;
+    font-size: 22px;
+    border: none;
+    margin-left: 20px;
+}
+
+.campo-label{
+    display: inline-block;
+    position: relative;
+    left: 87.5%;
+    top: 0;
+}
+
+.botoes{
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+.button{
+    flex-grow: 1;
+    flex-basis: 22%;
+}
+
